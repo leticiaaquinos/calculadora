@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #9a09ee, #d7acff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main{
+    background-color: rgba(255, 255, 255, 0.7);
+    height:400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.valores{
+    background-color: #ffffff;
+    width: 200px;
+    height: 50px;
+}
+
+.relogar{
+    width: 50px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+
+input{
+    cursor: pointer;
+    text-align: center;
+    background-color: #ffffff;
+    border: none;
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    outline: none;
+}
+
+.botoes{
+    margin-left: 35px;
+}
+
+p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    color: #9a09ee;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" />
+	<title>Calculadora</title>
+
+</head>
+
+<body>
+	<div class="main">
+		<form action="" name="Calculator">
+
+			<div class="topo">
+				<input type="text" class="valores" name="text1" disabled>
+
+				<input type="text" class="relogar" name="text12" value="C" onclick="location.reload()"><br>
+			</div>
+
+			<div class="botoes">
+            <input type="button" name="botao9" value="9" onclick="calcular(botao9.value)">
+			
+            <input type="button" name="botao8" value="8" onclick="calcular(botao8.value)">
+			
+            <input type="button" name="botao7" value="7" onclick="calcular(botao7.value)">
+			
+            <input type="button" name="addbotao" value="+" onclick="calcular(addbotao.value)"><br>
+
+            <input type="button" name="botao6" value="6" onclick="calcular(botao6.value)">
+			
+            <input type="button" name="botao5" value="5" onclick="calcular(botao5.value)">
+			
+            <input type="button" name="botao4" value="4" onclick="calcular(botao4.value)">
+			
+            <input type="button" name="subbotao" value="-" onclick="calcular(subbotao.value)"><br>
+			
+            <input type="button" name="botao3" value="3" onclick="calcular(botao3.value)">
+			
+            <input type="button" name="botao2" value="2" onclick="calcular(botao2.value)">
+			
+            <input type="button" name="botao1" value="1" onclick="calcular(botao1.value)">
+			
+			<input type="button" name="mulbotao" value="*" onclick="calcular(mulbotao.value)"><br>
+
+			<input type="button" name="dot" value="." onclick="calcular(dot.value)">
+
+			<input type="button" name="botao0" value="0" onclick="calcular(botao0.value)">
+
+			<input type="button" name="eqlbotao" value="=" onclick="text1.value=eval(text1.value)">
+
+			<input type="button" name="divbotao" value="/" onclick="calcular(divbotao.value)"><br>
+		
+		</div>
+
+		<p>Feito por Letícia Aquino</p>
+
+		</form>
+	</div>
+</body>
+<script src="script.js"></script>
+
+</html>
